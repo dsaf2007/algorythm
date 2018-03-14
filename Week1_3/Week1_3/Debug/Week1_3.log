@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\dsaf2\source\repos\algorythm\week1_3\week1_3\소스.cpp(34): warning C4715: 'Stack2::pop': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\dsaf2\source\repos\algorythm\week1_3\week1_3\소스.cpp(39): warning C4715: 'Stack2::empty': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Week1_3.vcxproj -> C:\Users\dsaf2\Source\Repos\algorythm\Week1_3\Debug\Week1_3.exe
