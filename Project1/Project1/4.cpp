@@ -22,7 +22,7 @@ public:
 	}
 	~Set()
 	{
-		//delete set;
+		//delete [] set;
 	}
 	int check(int element)
 	{
@@ -113,7 +113,7 @@ void Union(int unionsize, Set interSet,Set set1,Set set2)
 
 	for (int i = 0; i < unionsize; i++)
 	{
-		unionSet.set[i] = temp2.set[i];
+			unionSet.set[i] = temp2.set[i];
 	}
 	sort(unionSet.set, unionSet.set + unionsize);
 	unionSet.print();
@@ -162,10 +162,10 @@ void main()
 	{
 		inter.set[i] = temp.set[i];
 	}
-	set1.print(); cout << endl;
-	set2.print(); cout <<  endl;
-	inter.print(); cout << endl;
+	cout << "집합A - " ; set1.print(); cout << endl;
+	cout << "집합B - "; set2.print(); cout << endl;
+	cout << "합집합 - ";
 	Union(set1.setSize + set2.setSize - inter.setSize,inter, set1, set2);
-
+	cout << "교집합 - "; inter.print(); cout << endl;
 	
 }
