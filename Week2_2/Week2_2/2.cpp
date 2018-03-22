@@ -34,7 +34,7 @@ public:
 	}
 
 private:
-	itemType *stack;	// treeNode *stack;과 같다.
+	itemType * stack;	// treeNode *stack;과 같다.
 	int p;			// 배열의 위치를 가리키는 정수형 변수
 };
 
@@ -60,7 +60,7 @@ public:
 	int empty();	// queue[]이 비었는지 확인하기 위한 함수
 
 private:
-	itemType *queue;	// queue배열을 동적할당 하기 위한 포인터변수
+	itemType * queue;	// queue배열을 동적할당 하기 위한 포인터변수
 	int head, tail;		// queue[]내의 원소들의 처음과 끝을 파악하기 위한 변수
 	int size;	// 원형queue[]의 크기
 };

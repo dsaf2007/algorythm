@@ -10,7 +10,7 @@ struct treeNode *x, *z;	// 새로 생성되어 삽입, 삭제를 수행할 포인터
 
 class Stack {
 public:
-	
+
 	Stack(int max = 100) {
 		stack = new itemType[max];	// 크기가 50인 treeNode형 배열을 포인터 stack이 가리킴
 		p = 0;	// 원소의 시작주소 0으로 초기화
@@ -19,7 +19,7 @@ public:
 	~Stack() {
 		delete stack;
 	}
-	
+
 	inline void push(itemType v) {
 		stack[p++] = v;	// stack배열의 마지막에 해당 매개변수값 저장
 	}
@@ -27,13 +27,13 @@ public:
 	inline itemType pop() {
 		return stack[--p];// 배열속 원소의 주소값을 반환
 	}
-	
+
 	inline int empty() {
 		return !p;
 	}
 
 private:
-	itemType *stack;	// treeNode *stack;과 같다.
+	itemType * stack;	// treeNode *stack;과 같다.
 	int p;			// 배열의 위치
 };
 
