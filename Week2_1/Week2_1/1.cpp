@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 typedef struct treeNode *itemType;	// treeNode를 가리키는 구조체 포인터 재정의
 
 struct treeNode {

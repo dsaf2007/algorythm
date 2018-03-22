@@ -8,7 +8,6 @@ struct treeNode {
 };
 struct treeNode *x, *z;	// 새로 생성되어 삽입, 삭제를 수행할 포인터
 
-
 						// 트리 노드를 완성하기 위한 class
 class Stack {
 public:
