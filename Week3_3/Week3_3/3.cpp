@@ -52,7 +52,7 @@ st bubbleSort(itemType a[], int n)
 	Sorted.a = false;
 	while (!Sorted.a) {	//	바뀌지 않았다면 종료
 		Sorted.a = true;
-		for (i = 1; i < n; i++){
+		for (i = 1; i <= n; i++){
 			Sorted = Bubble(Sorted.a, &a[i], n);
 			result.a++;	//	compare count++
 			result.b += Sorted.b;	//	data move count

@@ -37,7 +37,7 @@ st insertion(itemType a[], int n)
 		result.b++;	//	data move count++
 		while (a[j - 1] > v) { a[j] = a[j - 1]; j--; result.a++; result.b++; }	//	당겨오는 작업
 		a[j] = v;	//	삽입
-		result.a++;
+		
 	}
 	return result;	//	결과 반환
 }
