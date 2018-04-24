@@ -1,0 +1,3 @@
+﻿  1.cpp
+c:\users\dsaf2\source\repos\algorythm\week7_1\week7_1\1.cpp(179): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Week7_1.vcxproj -> C:\Users\dsaf2\Source\Repos\algorythm\Week7_1\Debug\Week7_1.exe
